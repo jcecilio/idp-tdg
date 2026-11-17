@@ -319,3 +319,135 @@ O diagrama desenha só os fluxos e os 5 conflitos que tocam os atores-chave. A r
 **Errata registrada na geração do mapa.** A Q7 anunciou "37 atores", mas a lista aprovada soma 44 atores. Com A94 (vozes ausentes), aprovado na Q9, o total é 45. Os 37 da Q18 são os 45 menos os 8 automatizados excluídos da matriz pela Q17. Nenhuma decisão muda.
 
 **Árvore de decisões encerrada:** 6 rodadas, Q1–Q25, com 4 iterações na Q18.
+
+---
+
+## Rodada 7 — Revisão crítica do mapa (perguntas abertas, sem recomendação)
+
+> A pedido do aluno, as rodadas de revisão crítica trazem uma **provocação** (contraponto) no lugar da resposta recomendada. Cada resposta deve vir com justificativa.
+
+**Q26 — Os 7 atores-chave estão certos?** A lista era: A01, A32, A29, A58 [H], A07, A21, A33. O TCU estava fora, como aliado condicional.
+
+> Provocação: A58 é hipotético e sustenta H2 e H6, o que fragiliza o diagnóstico.
+
+**Resposta:** *"Estamos falando de atores-chave, nesse contexto quero apenas os atores que podem impedir ou dificultar as ações de mudanças na operação, nesse contexto a CEF não me parece um ator que tenha poder de veto no tocante à FORMA de atuação ou operação do sistema."*
+
+**Q26.2 — A CAIXA realmente não tem veto?** O 0207 é uma central multisserviço da própria CAIXA, e o contrato MTE–CAIXA não comprova que o MTE pode impor mudanças à URA (E02, L10). A CAIXA pode adiar ou deixar de priorizar uma mudança, o que é veto de fato.
+**Resposta:** *"vc está correto, vamos manter a Caixa."*
+
+**Q26.1 — Pelo critério de veto, usuário e atendente saem?** Isso choca com o princípio da Q18 (usuário relevante) e com a armadilha nº 1 da aula.
+**Resposta:** *"usuário e atendente ficam, porque, apesar de não terem poder de impedir os avanços, eles fazem parte essencial da operação."*
+→ Critério consolidado: **é ator-chave quem pode impedir ou dificultar a mudança, ou quem é parte essencial da operação.**
+
+**Q26.3 — Quem mais entra?** Candidatos: TCU, ANPD, CODEFAT, terceirizado e empregador.
+**Respostas:**
+
+- **TCU:** *"Não vejo o TCU como um ator que, apesar de poder intervir, viria a intervir nesse particular de desenho de processos internos."* → sai. Coerente com F13: os acórdãos tratam de pagamento e dados.
+- **Demais:** *"ANPD não entra, está muito distante, CODEFAT sai, terceirizado fica pelo mesmo motivo da CAIXA, ele é quem vai executar o desenho do código, empregador fica porque é peça fundamental."*
+
+**Q26.4 — Qual terceirizado?** No v3, A20 é a operação **humana** de contact center. Quem constrói e altera a URA é A84 (fornecedores de URA/ACD/gravação/TTS), hipotético e excluído na Q4. As opções eram: (a) A20, (b) A84, (c) os dois.
+**Resposta:** (b). **A84 entra no mapa** como ator-chave hipotético e substitui A20 na lista de chave. A20 permanece no mapa como ator não-chave.
+
+**Resultado da Q26 — 8 atores-chave:**
+
+| Ator | Critério |
+|---|---|
+| A01 Usuário comum | Operação |
+| A07 Atendente | Operação |
+| A32 CAIXA | Veto de fato + operação |
+| A29 MTE | Veto + operação |
+| A21 Dataprev | Veto (integração) |
+| A58 Gestor da fila [H] | Veto + operação |
+| A84 Fornecedor de tecnologia da URA [H] | Executa o desenho |
+| A33 Empregador | Peça fundamental (origina o dado) |
+
+Ficam de fora o TCU, a ANPD e o CODEFAT.
+
+**Q26.5 — Posição do A84 na Matriz de Mendelow.** Proposta: Poder 0,55 e Interesse 0,35, quadrante "manter satisfeito".
+
+- **Poder:** implementa qualquer mudança na árvore e nas integrações, e pode atrasá-la ou condicioná-la a aditivo contratual. Não decide o que muda.
+- **Interesse:** não sente o recontato; ganha com projetos de mudança.
+
+**Resposta:** *"concordo com as notas do A84"*.
+
+**Q27 — O que o cidadão realmente quer quando liga?**
+
+> Provocação: talvez a maioria seja só "quando vou receber?". Nesse caso, a *failure demand* estaria na clareza da informação, e não na passagem entre canais.
+
+**Resposta:** *"o cidadão quer atendimento E resolução do seu problema e não apenas ser direcionado para outros lugares, é importante para o cidadão ver que existe intenção real do serviço em atender o seu pedido. Um segundo motivo é tentar resolver uma questão que ficou pendente anteriormente."*
+
+A resposta recusa a provocação e traz dois deslocamentos:
+
+1. **De "encaminhar" para "resolver".** A coluna da RACI "para onde a URA deveria encaminhar" parte de uma premissa que o aluno rejeita: para o cidadão, ser encaminhado não é ser atendido.
+2. **Um motivo novo: retomar pendência de contato anterior.** É o próprio recontato visto pelo lado do cidadão. Esse motivo não existe na RACI.
+
+**Q27.1 — O que "resolver" significa quando a CAIXA não tem competência legal (motivos 4 e 5)?** Opções:
+
+- (a) transferência com contexto ao 158;
+- (b) a CAIXA como porta única, abrindo a demanda no MTE com protocolo;
+- (c) retorno ativo do MTE.
+
+> Provocação: (b) obriga a CAIXA a responder por processo que não controla (conflito C1).
+
+**Resposta:** *"b, a CAIXA como porta única com protocolo, com certeza."*
+
+**Q27.3 — Por que a CAIXA aceitaria ser porta única?** Opções: aditivo contratual, remuneração por protocolo, redução do próprio recontato.
+
+> Provocação: se a alavanca for só o contrato, a mudança depende de o MTE querer exigir.
+
+**Resposta:** *"A Caixa ou quem seja o gestor da URA deve ser capaz de receber e resolver as demandas, não é razoável que um agente destinado a receber as demandas não possa ser capaz de resolvê-las, viraria apenas uma telefonista, e não é esse o objetivo. Se o problema é competência, que haja a delegação de competências."*
+
+A resposta não escolhe entre as alavancas oferecidas e reformula a questão. O problema não é o incentivo da CAIXA. O problema é que **quem recebe a demanda não tem competência para resolvê-la**, e a saída proposta é a **delegação de competências** do MTE ao gestor da URA. O papel da URA e do atendente muda de "telefonista" (encaminhar) para "resolutor" (decidir ou executar).
+
+**Q27.4 — Até onde vai a delegação?** Três tipos de ato:
+
+- (i) **Operacionais:** abrir revisão, corrigir cadastro, reemitir parcela (R07b art. 21 §2º), desbloquear, registrar recurso.
+- (ii) **Instrução:** consultar e explicar o motivo do indeferimento; pedir retificação ao empregador.
+- (iii) **Mérito:** deferir ou indeferir recurso, rever habilitação.
+
+> Provocação: parar em (i) e (ii) ainda deixa o cidadão esperando o MTE. Ir até (iii) levanta a pergunta de quem responde pelo erro de mérito.
+
+**Resposta:** *"i e ii delegados; mérito continua com o MTE."*
+→ A CAIXA/gestor da URA **executa e instrui**; o MTE **decide o mérito**. Por consequência, o "A" da linha 10 da RACI (retomar pendência anterior) é da **CAIXA/gestor da URA**, dona do protocolo e da continuidade. Essa consequência não foi contestada.
+
+**Q28 — Causa raiz.** As respostas anteriores apontam como causa raiz **a separação entre quem recebe a demanda e quem tem competência para resolvê-la**. Isso reformula H1, que estava escrita como "externalidade de custo MTE→CAIXA". Os demais candidatos (linguagem das cartas e dos status, acesso a humano, desenho do menu) seriam causas secundárias ou sintomas?
+
+**Resposta:** *"seriam causas secundárias e precisam entrar na equação de resolução."*
+
+→ **H1 é reformulada:** causa raiz = separação entre recepção e competência. A externalidade de custo passa a ser o mecanismo que a mantém.
+→ **Causas secundárias** (linguagem, acesso a humano, menu) não são descartadas. Entram na solução ao lado da delegação. Ficam como H1a–H1c, ligadas a H3 (status), H5 (acesso) e S01 (triagem por objeto).
+
+**Q27.5 — Quem garante que o MTE decida o mérito no prazo?** Opções: SLA bilateral no contrato MTE–CAIXA, norma do CODEFAT, prazos da Lei 13.460, outro.
+
+> Provocação: sem prazo, a porta única troca "ligar para o 158" por "esperar o protocolo", e o recontato reaparece como cobrança.
+
+**Resposta:** *"SLA no contrato MTE–CAIXA seria uma inovação formidável."*
+→ Entra no mapa uma **relação contratual bilateral** entre A29 e A32: o MTE delega os atos (i) e (ii) e se obriga a decidir o mérito em prazo; a CAIXA se obriga a resolver e acompanhar. A L10 (contrato 07/2026 sem instrumento verificado) passa a ser a lacuna crítica dessa solução.
+
+**Q27.6 — O CODEFAT volta para os atores-chave? O TCU muda?**
+
+**Resposta:** *"CODEFAT volta, TCU continua fora."*
+→ **A30/31 volta aos atores-chave** como dono do ato normativo que viabiliza a delegação. O TCU segue fora: o aluno mantém o juízo da Q26.3.
+
+**Q29 — Nove atores-chave excedem o intervalo de 5 a 8 da aula (p. 43).** Opções:
+
+- (a) fundir A58 (gestor da fila, hipotético) na CAIXA (A32);
+- (b) fundir A84 em A58;
+- (c) manter 9 e justificar a exceção.
+
+> Provocação: com (a), H2 e H6 passam a ser atribuídas à CAIXA como um todo. Ficam mais robustas, porque o ator existe, e mais vagas, porque não se sabe quem muda as metas.
+
+**Resposta:** (a). **A58 é absorvido por A32** em todo o mapa: catálogo, Mendelow, cebola e RACI. A gestão da fila 0207 passa a ser função interna da CAIXA.
+
+**Atores-chave finais (8):** A01 Usuário comum · A07 Atendente · A32 CAIXA (incl. gestão da fila) · A29 MTE · A21 Dataprev · A84 Fornecedor da URA [H] · A33 Empregador · A30/31 CODEFAT.
+
+**Fim da rodada 7.** A revisão crítica mudou o mapa em seis pontos:
+
+1. **Critério de ator-chave:** quem impede ou dificulta a mudança, ou quem é parte essencial da operação.
+2. **Atores:** entra A84; A58 é fundido em A32; saem TCU e ANPD; CODEFAT volta.
+3. **RACI-alvo:** resolver em vez de encaminhar. A CAIXA vira porta única com protocolo e com delegação dos atos operacionais e de instrução. O mérito fica com o MTE. Entra a linha 10 (pendência anterior).
+4. **SLA bilateral** no contrato MTE–CAIXA.
+5. **H1 reformulada:** a causa raiz é a separação entre recepção e competência.
+6. **Causas secundárias** (H1a–c) entram na solução.
+
+**Rodadas registradas:** 7 (Q1–Q29).
